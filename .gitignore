@@ -1,0 +1,25 @@
+
+# Secrets
+.env
+**/.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Node
+node_modules/
+**/node_modules/
+dist/
+
+# Local data
+**/data/*
+!**/data/.gitkeep
+
+# Editor
+.vscode/
+.idea/
+.DS_Store
